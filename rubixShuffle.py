@@ -108,9 +108,9 @@ MOVES = [
   Move(symbol="Lw", direction=Direction(Direction.DOWN)              ),
   Move(symbol="Fw", direction=Direction(Direction.CLOCKWISE)         ),
   Move(symbol="Bw", direction=Direction(Direction.COUNTER_CLOCKWISE) ),
-  # Move(symbol="x" , direction=Direction(Direction.UP)                ), ##############################
-  # Move(symbol="y" , direction=Direction(Direction.LEFT)              ), # Omitted: deemed as useless #
-  # Move(symbol="z" , direction=Direction(Direction.CLOCKWISE)         ), ##############################
+  Move(symbol="x" , direction=Direction(Direction.UP)                ),
+  Move(symbol="y" , direction=Direction(Direction.LEFT)              ),
+  Move(symbol="z" , direction=Direction(Direction.CLOCKWISE)         ),
   Move(symbol="M" , direction=Direction(Direction.DOWN)              ),
   Move(symbol="E" , direction=Direction(Direction.RIGHT)             ),
   Move(symbol="S" , direction=Direction(Direction.CLOCKWISE)         ),
